@@ -1,0 +1,26 @@
+{
+  "name": "tomas-belskis",
+  "homepage": "https://github.com/TomasLT/Personal-Website",
+  "authors": [
+    "Tomas Belskis <c11477418@mydit.ie>"
+  ],
+  "description": "Personal Website",
+  "main": "index.html",
+  "keywords": [
+    "personal",
+    "webpage",
+    "tomas",
+    "belskis",
+    "developer",
+    "software",
+    "engineer"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
