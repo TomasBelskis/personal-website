@@ -17,7 +17,7 @@ header {
 header .header-content {
   position: relative;
   text-align: center;
-  padding: 100px 15px 100px;
+  padding: 250px 60px 250px;
   width: 100%;
 }
 header .header-content .header-content-inner h1 {
@@ -35,4 +35,17 @@ header .header-content .header-content-inner p {
   color: rgba(255, 255, 255, 0.7);
   font-size: 16px;
   margin-bottom: 50px;
+}
+img {
+  width: 200px;
+  height: auto;
+}
+#about-wrapper {
+  background-color: #E1DDDB;
+}
+#portfolio-wrapper {
+  background-color: #EF6C33;
+}
+#contact-wrapper {
+  background-color: #0C4A60 ;
 }
