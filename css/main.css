@@ -13,11 +13,18 @@ header {
   background-image: url('../img/city.jpg');
   text-align: center;
   color: white;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 header .header-content {
   position: relative;
   text-align: center;
-  padding: 250px 60px 250px;
+  color: #FBD0E2;
+  padding: 200px 15px 200px;
   width: 100%;
 }
 header .header-content .header-content-inner h1 {
@@ -37,15 +44,90 @@ header .header-content .header-content-inner p {
   margin-bottom: 50px;
 }
 img {
-  width: 200px;
+  width: 250px;
   height: auto;
+  border-color: rgb(255,255,255);
+  border-width: 10px;
+  border-style: solid;
+  -moz-box-shadow:    inset 0 0 10px #000000;
+  -webkit-box-shadow: inset 0 0 10px #000000;
+  box-shadow:         inset 0 0 10px #000000;
 }
+footer{
+  background-color: #7F007F;
+  text-align: center;
+}
+
+.navbar{
+   border: none;
+   border-radius: 0;
+   background-color: rgba(11,27,50,0.5);
+}
+.btn-circle.btn-xl {
+  width: 70px;
+  height: 70px;
+  padding: 10px 16px;
+  font-size: 24px;
+  line-height: 1.33;
+  border-radius: 35px;
+}
+.jumbotron {
+   background: rgb(200, 54, 54); /* This is for ie8 and below */
+   background: rgba(200, 54, 54, 0.5); 
+}
+.fa.fa-arrow-circle-o-down{
+  position: relative;
+  background-position: center;
+  text-align: center;
+}
+
 #about-wrapper {
   background-color: #E1DDDB;
+  text-align: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  background-position: center;
+  padding: 150px 100px 150px;
 }
 #portfolio-wrapper {
-  background-color: #EF6C33;
+  background-image:url('../img/city2.jpg');
+  position: relative;
+  text-align: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 150px 100px 150px;
+  width: 100%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
 }
 #contact-wrapper {
-  background-color: #0C4A60 ;
+  background-image:url('../img/map.jpg');
+  position: relative;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: red;
+  padding: 150px 100px 150px;
+  width: 100%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
