@@ -37,9 +37,9 @@ header .header-content .header-content-inner h1 {
 header .header-content .header-content-inner hr {
   margin: 30px auto;
 }
-header .header-content .header-content-inner p {
+header .header-content .header-content-inner h4 {
   font-weight: 300;
-  color: rgba(255, 255, 255, 0.7);
+  color: #CCFF66;
   font-size: 16px;
   margin-bottom: 50px;
 }
@@ -63,24 +63,25 @@ footer{
    border-radius: 0;
    background-color: rgba(11,27,50,0.5);
 }
-.btn-circle.btn-xl {
+.btn-circle.btn-lg {
   width: 70px;
   height: 70px;
   padding: 10px 16px;
   font-size: 24px;
   line-height: 1.33;
   border-radius: 35px;
+  border-width: 3px;
+  background-color: rgba(11,27,50,0.5);
 }
 .jumbotron {
    background: rgb(200, 54, 54); /* This is for ie8 and below */
    background: rgba(200, 54, 54, 0.5); 
 }
-.fa.fa-arrow-circle-o-down{
-  position: relative;
-  background-position: center;
+.icon {
   text-align: center;
+  color: red;
+  margin: 0px 0px 0px 0px;
 }
-
 #about-wrapper {
   background-color: #E1DDDB;
   text-align: center;
