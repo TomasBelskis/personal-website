@@ -1,3 +1,4 @@
+
 body{
 	position: relative;
 }
@@ -53,18 +54,18 @@ img {
   -webkit-box-shadow: inset 0 0 10px #000000;
   box-shadow:         inset 0 0 10px #000000;
 }
-ul {
-  list-style-type: none;
-}
 footer{
   background-color: #7F007F;
   text-align: center;
 }
-
+#profileImg {
+  position: relative;
+  display: inline-block;
+}
 .navbar{
-   border: none;
-   border-radius: 0;
-   background-color: rgba(11,27,50,0.5);
+  border: none;
+  border-radius: 0;
+  background-color: rgba(11,27,50,0.5);
 }
 .btn-circle.btn-lg {
   width: 70px;
@@ -85,6 +86,43 @@ footer{
   color: red;
   margin: 0px 0px 0px 0px;
 }
+.social-circle {
+  list-style-type: none;
+}
+.social-circle li {
+  display: inline;
+  background: center;
+}
+.social-circle li a {
+  padding: 10px 10px;
+}
+.linkedin-stack {
+  position: absolute;
+  padding: 0px 0px;
+  bottom: 45%;
+  left: -5%;
+}
+.circle-1 {
+  color: #007bb5;
+}
+.linkedin-icon{
+  color: #007bb5;
+}
+.fa-instagram.fa-3x {
+  color: #bc2a8d;
+}
+.fa-twitter-square.fa-3x {
+  color: #4099FF;
+}
+.fa-github-square.fa-3x {
+  color: #8000FF;
+}
+.fa-youtube-square.fa-3x {
+  color: #e52d27;
+}
+.fa-envelope-square.fa-3x {
+  color: #db3236;
+}
 #about-wrapper {
   background-color: #E1DDDB;
   text-align: center;
@@ -95,6 +133,7 @@ footer{
   background-position: center;
   padding: 150px 100px 150px;
 }
+
 #portfolio-wrapper {
   background-image:url('../img/city2.jpg');
   position: relative;
@@ -134,4 +173,14 @@ footer{
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+@media only screen and (max-width: 767px) {
+.linkedin-stack {
+  position: absolute;
+  font-size: 20px;
+  padding: 0px 0px;
+  bottom: 50%;
+  left: -20%;
+}
+/*--[ Mobile styles go here]-------------------------------*/
 }
