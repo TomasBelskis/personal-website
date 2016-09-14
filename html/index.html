@@ -57,7 +57,7 @@
               </div>
 
                 <h4>And I'm a recent Computer Science graduate that is passionate about learning new technologies and software development.</h4>
-                <a id="up" href="#down" class="btn btn-default btn-circle btn-lg">
+                <a id="down_button" href="#about-wrapper" class="btn btn-default btn-circle btn-lg">
                   <span class="icon"><i class=" fa fa-angle-double-down fa-2x"></i></span>
                 </a>
               
@@ -67,11 +67,21 @@
       </div>
     </header>
     
-    <div id="down" class="container-fluid">
+    <div id="about-wrapper" class="container-fluid">
       <h1>About me!</h1>
       <div id="profileImg">
         <img src="../img/profile.jpeg" class="img-responsive img-circle center-block" alt="profile">
       </div>
+      <ul class="social-circle">
+        <li><a class="linked-in" href="https://ie.linkedin.com/in/tomas-belskis"><i class="fa fa-linkedin-square fa-3x" aria-hidden="true"></i></a></li>
+        <li><a class="instagram" href="https://www.instagram.com/tomas.belskis/"><i class="fa fa-instagram fa-3x" aria-hidden="true"></i></a></li>
+        <li><a class="twitter" href="https://twitter.com/_tomas_dev"><i class="fa fa-twitter-square fa-3x" aria-hidden="true"></i></a></li>
+        <li><a class="githun" href="https://github.com/TomasLT"><i class="fa fa-github-square fa-3x" aria-hidden="true"></i></a></li>
+        <li><a class="youtube" href="https://www.youtube.com/channel/UC7Bxv_wNOzLE5l2okPEhEKA"><i class="fa fa-youtube-square fa-3x" aria-hidden="true"></i></a></li>
+        <li><a class="mail" href="mailto:tomasbelskis.dev@gmail.com?subject=Hi, Tomas!"><i class="fa fa-envelope-square fa-3x" aria-hidden="true"></i>
+</a></li>
+
+      </ul>
       <div class="row">
         <div class="col-md-12">
         <h1>I am</h1>
@@ -131,13 +141,20 @@
     </footer>
   </body>
   <script>
-  $('#up, #down').on('click', function(e){
-    e.preventDefault();
-    var target= $(this).get(0).id == 'up' ? $('#down') : $('#up');
-    $('html, body').stop().animate({
-       scrollTop: target.offset().top
-    }, 1000);
-});  
+  $(function() {
+    $('a[href*="#"]:not([href="#"])').click(function() {
+      if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+        var target = $(this.hash);
+        target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+        if (target.length) {
+          $('html, body').animate({
+            scrollTop: target.offset().top
+          }, 1000);
+          return false;
+        }
+      }
+    });
+  });
   </script>
 </html>
 
