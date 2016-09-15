@@ -96,6 +96,7 @@ footer{
 .social-circle li a {
   padding: 10px 10px;
 }
+/*-- Linked in social icon --*/
 .linkedin-stack {
   position: absolute;
   padding: 0px 0px;
@@ -104,13 +105,20 @@ footer{
 }
 .circle-1 {
   color: #007bb5;
+ 
 }
 .linkedin-icon{
   color: #007bb5;
 }
 .fa-instagram.fa-3x {
-  color: #bc2a8d;
+  background:-webkit-linear-gradient(right top,#4c68d7, #8a3ab9,#bc2a8d,#cd486b,#e95950,#fbad50,#fccc63); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(bottom left, #4c68d7, #8a3ab9,#bc2a8d,#cd486b,#e95950,#fbad50,#fccc63); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(bottom left, #4c68d7, #8a3ab9,#bc2a8d,#cd486b,#e95950,#fbad50,#fccc63); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to bottom left, #4c68d7, #8a3ab9,#bc2a8d,#cd486b,#e95950,#fbad50,#fccc63); /* Standard syntax (must be last) */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
+/* -- End Linked in social icon -- */
 .fa-twitter-square.fa-3x {
   color: #4099FF;
 }
