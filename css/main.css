@@ -96,12 +96,15 @@ footer{
 .social-circle li a {
   padding: 10px 10px;
 }
+.icon-background {
+  color: white;
+}
 /*-- Linked in social icon --*/
 .linkedin-stack {
   position: absolute;
   padding: 0px 0px;
   bottom: 45%;
-  left: -10%;
+  left: -25%;
 }
 .circle-1 {
   color: #007bb5;
@@ -116,8 +119,8 @@ footer{
 .instagram-stack {
   position: absolute;
   padding: 0px 0px;
-  bottom: 20%;
-  left: -2%;
+  bottom: 17%;
+  left: -15%;
 }
 .circle-2 {
   background:-webkit-linear-gradient(right top,#4c68d7, #8a3ab9,#bc2a8d,#cd486b,#e95950,#fbad50,#fccc63); /* For Safari 5.1 to 6.0 */
@@ -137,23 +140,62 @@ footer{
 }
 /*-- End Instagram social icon --*/
 /*-- Youtube social icon --*/
-.fa-youtube-square.fa-3x {
+.youtube-stack {
+  position: absolute;
+  padding: 0px 0px;
+  bottom: -5%;
+  left:15%;
+}
+.circle-3 {
+  color: #e52d27;
+}
+.youtube-icon {
   color: #e52d27;
 }
 /*-- End Youtube social icon  --*/
 /*-- Twitter social icon --*/
-.fa-twitter-square.fa-3x {
+.twitter-stack {
+  position: absolute;
+  padding: 0px 0px;
+  bottom: 17%;
+  right:-15%;
+}
+.circle-4 {
+  color: #4099FF;
+}
+.twitter-icon {
   color: #4099FF;
 }
 /**-- End Twitter social icon  --*/
 /**-- Github social icon Start --*/
-.fa-github-square.fa-3x {
+.github-stack {
+  position: absolute;
+  padding: 0px 0px;
+  bottom: -5%;
+  right:15%;
+}
+.circle-5 {
+  color: #8000FF;
+}
+.github-icon {
   color: #8000FF;
 }
 /*-- End Github social icon --*/
 /*-- Start Email icon --*/
-.fa-envelope-square.fa-3x {
-  color: #db3236;
+.mail-stack {
+  position: absolute;
+  padding: 0px 0px;
+  bottom: 45%;
+  right:-25%;
+}
+li a:hover {
+    opacity: 0.5;
+}
+.circle-6 {
+   color: #db3236;
+}
+.mail-icon {
+  color: #3A7EFC;
 }
 /*-- End email icon --*/
 
