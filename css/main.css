@@ -103,8 +103,11 @@ footer{
 .linkedin-stack {
   position: absolute;
   padding: 0px 0px;
-  bottom: 45%;
-  left: -25%;
+  bottom: 20%;
+  left: -16.5%;
+}
+.linkedin-stack:hover {
+  opacity: 0.5;
 }
 .circle-1 {
   color: #007bb5;
@@ -119,8 +122,11 @@ footer{
 .instagram-stack {
   position: absolute;
   padding: 0px 0px;
-  bottom: 17%;
-  left: -15%;
+  bottom: 2%;
+  left: -0.5%;
+}
+.instagram-stack:hover{
+  opacity: 0.5;
 }
 .circle-2 {
   background:-webkit-linear-gradient(right top,#4c68d7, #8a3ab9,#bc2a8d,#cd486b,#e95950,#fbad50,#fccc63); /* For Safari 5.1 to 6.0 */
@@ -143,8 +149,11 @@ footer{
 .youtube-stack {
   position: absolute;
   padding: 0px 0px;
-  bottom: -5%;
-  left:15%;
+  bottom: -8.5%;
+  left:25%;
+}
+.youtube-stack:hover{
+  opacity: 0.5;
 }
 .circle-3 {
   color: #e52d27;
@@ -153,26 +162,15 @@ footer{
   color: #e52d27;
 }
 /*-- End Youtube social icon  --*/
-/*-- Twitter social icon --*/
-.twitter-stack {
-  position: absolute;
-  padding: 0px 0px;
-  bottom: 17%;
-  right:-15%;
-}
-.circle-4 {
-  color: #4099FF;
-}
-.twitter-icon {
-  color: #4099FF;
-}
-/**-- End Twitter social icon  --*/
 /**-- Github social icon Start --*/
 .github-stack {
   position: absolute;
   padding: 0px 0px;
-  bottom: -5%;
-  right:15%;
+  bottom: -8.5%;
+  right:25%;
+}
+.github-stack:hover{
+  opacity: 0.5;
 }
 .circle-5 {
   color: #8000FF;
@@ -181,15 +179,33 @@ footer{
   color: #8000FF;
 }
 /*-- End Github social icon --*/
+/*-- Twitter social icon --*/
+.twitter-stack {
+  position: absolute;
+  padding: 0px 0px;
+  bottom: 2%;
+  right:-0.5%;
+}
+.twitter-stack:hover {
+  opacity: 0.5;
+}
+.circle-4 {
+  color: #4099FF;
+}
+.twitter-icon {
+  color: #4099FF;
+}
+/**-- End Twitter social icon  --*/
+
 /*-- Start Email icon --*/
 .mail-stack {
   position: absolute;
   padding: 0px 0px;
-  bottom: 45%;
-  right:-25%;
+  bottom: 20%;
+  right:-16.5%;
 }
-li a:hover {
-    opacity: 0.5;
+.mail-stack:hover {
+   opacity: 0.5;
 }
 .circle-6 {
    color: #db3236;
@@ -198,7 +214,14 @@ li a:hover {
   color: #3A7EFC;
 }
 /*-- End email icon --*/
-
+.skills{
+  list-style: none;
+  display: inline;
+  background: center;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+}
 #about-wrapper {
   background-color: #E1DDDB;
   text-align: center;
@@ -211,24 +234,18 @@ li a:hover {
 }
 
 #portfolio-wrapper {
-  background-image:url('../img/city2.jpg');
-  position: relative;
+  background-color: #1D004F;
+  color: white;
   text-align: center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
   background-position: center;
-  background-repeat: no-repeat;
   padding: 150px 100px 150px;
-  width: 100%;
-
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-
+}
+.col-md-5 {
+  padding-top: 20px;
+}
+#portfolio-wrapper img {
+  width: 500px;
+  height:auto;
 }
 #contact-wrapper {
   background-image:url('../img/map.jpg');
