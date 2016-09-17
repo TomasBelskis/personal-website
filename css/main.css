@@ -247,6 +247,12 @@ footer{
   width: 500px;
   height:auto;
 }
+#portfolio-wrapper ul {
+  list-style-type: none;
+}
+#portfolio-wrapper ul li{
+  display: inline;
+}
 #contact-wrapper {
   background-image:url('../img/map.jpg');
   position: relative;
