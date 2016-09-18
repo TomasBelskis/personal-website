@@ -253,14 +253,14 @@ footer h6{
   width: 500px;
   height:auto;
 }
-input{
-
-}
 #portfolio-wrapper ul {
   list-style-type: none;
 }
 #portfolio-wrapper ul li{
   display: inline;
+}
+#portfolio-wrapper .label{
+  font-size: 15px;
 }
 #contact-wrapper {
   background-image:url('../img/map.jpg');
