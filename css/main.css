@@ -41,7 +41,8 @@ header .header-content .header-content-inner hr {
 header .header-content .header-content-inner h4 {
   font-weight: 300;
   color: white;
-  font-size: 16px;
+  font-style: italic;
+  font-size: 18px;
   margin-bottom: 50px;
 }
 img {
@@ -57,7 +58,7 @@ img {
 footer{
   background-color: #302B54;
   text-align: center;
-  color: white;
+  color: #CCCCFF;
   height: 100px;
 }
 footer h6{
@@ -68,10 +69,75 @@ footer h6{
   position: relative;
   display: inline-block;
 }
-.navbar{
-  border: none;
-  border-radius: 0;
-  background-color: rgba(11,27,50,0.5);
+.navbar-default {
+  background: rgb(48,43,84); /*for ie8 and bellow*/
+  background: rgba(48,43,84,0.5);;
+  border-style: none;
+}
+.navbar-default .navbar-brand {
+  color: #ecf0f1;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #d129ee;
+}
+.navbar-default .navbar-text {
+  color: #ecf0f1;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #ecf0f1;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #d129ee;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #d129ee;
+  background-color: #CCCCFF;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  color: #d129ee;
+  background-color: #CCCCFF;
+}
+.navbar-default .navbar-toggle {
+  border-color: #CCCCFF;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #CCCCFF;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #ecf0f1;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #ecf0f1;
+}
+.navbar-default .navbar-link {
+  color: #ecf0f1;
+}
+.navbar-default .navbar-link:hover {
+  color: #d129ee;
+}
+
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #ecf0f1;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #d129ee;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #d129ee;
+    background-color: #CCCCFF;
+  }
 }
 .btn-circle.btn-lg {
   width: 70px;
@@ -276,9 +342,9 @@ footer h6{
   font-size: 13px;
 }
 #portfolio-wrapper .btn-default {
-  color:white;
-  background-color: #8000FF;
-  border-color: #8000FF;
+  color:#8000FF;
+  background-color: #CCCCFF;
+  border-color: white;
 }
 #portfolio-wrapper .btn-default:hover{
   opacity: 0.5;
@@ -297,6 +363,14 @@ footer h6{
 #contact-wrapper .form-group{
   text-align: left;
 }
+#contact-wrapper .btn-primary { 
+  background-color: #CCCCFF;
+  color:black;
+  border-color: #000066;
+}
+#contact-wrapper .btn-primary:hover { 
+  opacity: 0.5;
+}
 .social-line ul{
   list-style-type:none; 
   padding: 10px; 
@@ -305,6 +379,13 @@ footer h6{
   display: inline;
   padding-left:10px; 
 }
+.social-line ul li i {
+  color:#CCCCFF;
+}
+.social-line ul li i:hover {
+  opacity: 0.5;
+}
+
 @media only screen and (max-width: 767px) {
 .linkedin-stack {
   position: absolute;
