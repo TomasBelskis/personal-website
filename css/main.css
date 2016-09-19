@@ -24,7 +24,7 @@ header {
 header .header-content {
   position: relative;
   text-align: center;
-  color: #FBD0E2;
+  color: white;
   padding: 200px 15px 200px;
   width: 100%;
 }
@@ -40,7 +40,7 @@ header .header-content .header-content-inner hr {
 }
 header .header-content .header-content-inner h4 {
   font-weight: 300;
-  color: #CCFF66;
+  color: white;
   font-size: 16px;
   margin-bottom: 50px;
 }
@@ -55,7 +55,7 @@ img {
   box-shadow:         inset 0 0 10px #000000;
 }
 footer{
-  background-color: #7F007F;
+  background-color: #302B54;
   text-align: center;
   color: white;
   height: 100px;
@@ -84,8 +84,8 @@ footer h6{
   background-color: rgba(11,27,50,0.5);
 }
 .jumbotron {
-   background: rgb(200, 54, 54); /* This is for ie8 and below */
-   background: rgba(200, 54, 54, 0.5); 
+  background: rgb(48,43,84); /*for ie8 and bellow*/
+   background: rgba(48,43,84,0.5);
 }
 .icon {
   text-align: center;
@@ -238,20 +238,30 @@ footer h6{
   background-position: center;
   padding: 150px 100px 150px;
 }
+#about-wrapper p{
+  text-align: justify;
+  margin: 0px auto;
+  width: 50%;
+}
 
 #portfolio-wrapper {
-  background-color: #1D004F;
-  color: white;
+  background-color: #000033;
   text-align: center;
+  color: white;
   background-position: center;
   padding: 150px 100px 150px;
+}
+#portfolio-wrapper p{
+ text-align: justify;
 }
 .col-md-5 {
   padding-top: 20px;
 }
 #portfolio-wrapper img {
-  width: 500px;
+  width: 100%;
   height:auto;
+  margin-bottom: 5px;
+  margin-top:0px;
 }
 #portfolio-wrapper ul {
   list-style-type: none;
@@ -262,25 +272,30 @@ footer h6{
 #portfolio-wrapper .label{
   font-size: 15px;
 }
+#portfolio-wrapper p{
+  font-size: 13px;
+}
+#portfolio-wrapper .btn-default {
+  color:white;
+  background-color: #8000FF;
+  border-color: #8000FF;
+}
+#portfolio-wrapper .btn-default:hover{
+  opacity: 0.5;
+}
+
 #contact-wrapper {
-  background-image:url('../img/map.jpg');
-  position: relative;
-  width: 100%;
+  background-color: #E1DDDB;
+  text-align: center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
   background-position: center;
-  background-repeat: no-repeat;
-  text-align: center;
-  color: red;
-  padding: 200px 110px 200px;
-
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  padding: 150px 100px 150px;
+}
+#contact-wrapper .form-group{
+  text-align: left;
 }
 .social-line ul{
   list-style-type:none; 
