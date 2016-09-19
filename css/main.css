@@ -74,19 +74,22 @@ footer h6{
   background: rgb(48,43,84); /*for ie8 and bellow*/
   background: rgba(48,43,84,0.5);;
   border-style: none;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 18px;
 }
 .navbar-default .navbar-brand {
-  color: #8000FF;
+  color: white;
 }
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
   color: #d129ee;
 }
 .navbar-default .navbar-text {
-  color: #8000FF;
+  color: white;
 }
 .navbar-default .navbar-nav > li > a {
-  color: #8000FF;
+  color: white;
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
@@ -112,14 +115,14 @@ footer h6{
   background-color: #CCCCFF;
 }
 .navbar-default .navbar-toggle .icon-bar {
-  background-color: #8000FF;
+  background-color: white;
 }
 .navbar-default .navbar-collapse,
 .navbar-default .navbar-form {
-  border-color: #8000FF;
+  border-color: white;
 }
 .navbar-default .navbar-link {
-  color: #8000FF;
+  color: white;
 }
 .navbar-default .navbar-link:hover {
   color: #d129ee;
@@ -127,7 +130,7 @@ footer h6{
 
 @media (max-width: 767px) {
   .navbar-default .navbar-nav .open .dropdown-menu > li > a {
-    color: #8000FF;
+    color: white;
   }
   .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
   .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
@@ -148,7 +151,7 @@ footer h6{
   line-height: 1.33;
   border-radius: 35px;
   border-width: 3px;
-  border-color: rgb(48,43,84);
+  border-color: #CCCCFF;
   background-color: rgba(204,204,255,0.5);
 }
 .btn-circle.btn-lg:hover {
@@ -160,7 +163,7 @@ footer h6{
 }
 .icon {
   text-align: center;
-  color: #8000FF;
+  color: white;
   margin: 0px 0px 0px 0px;
 }
 .social-circle {
