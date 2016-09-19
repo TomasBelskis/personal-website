@@ -1,6 +1,7 @@
 
 body{
 	position: relative;
+  font-family: "Times New Roman", Times, serif;
 }
 header {
   position: relative;
@@ -75,17 +76,17 @@ footer h6{
   border-style: none;
 }
 .navbar-default .navbar-brand {
-  color: #ecf0f1;
+  color: #8000FF;
 }
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
   color: #d129ee;
 }
 .navbar-default .navbar-text {
-  color: #ecf0f1;
+  color: #8000FF;
 }
 .navbar-default .navbar-nav > li > a {
-  color: #ecf0f1;
+  color: #8000FF;
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
@@ -111,14 +112,14 @@ footer h6{
   background-color: #CCCCFF;
 }
 .navbar-default .navbar-toggle .icon-bar {
-  background-color: #ecf0f1;
+  background-color: #8000FF;
 }
 .navbar-default .navbar-collapse,
 .navbar-default .navbar-form {
-  border-color: #ecf0f1;
+  border-color: #8000FF;
 }
 .navbar-default .navbar-link {
-  color: #ecf0f1;
+  color: #8000FF;
 }
 .navbar-default .navbar-link:hover {
   color: #d129ee;
@@ -126,7 +127,7 @@ footer h6{
 
 @media (max-width: 767px) {
   .navbar-default .navbar-nav .open .dropdown-menu > li > a {
-    color: #ecf0f1;
+    color: #8000FF;
   }
   .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
   .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
@@ -147,7 +148,11 @@ footer h6{
   line-height: 1.33;
   border-radius: 35px;
   border-width: 3px;
-  background-color: rgba(11,27,50,0.5);
+  border-color: rgb(48,43,84);
+  background-color: rgba(204,204,255,0.5);
+}
+.btn-circle.btn-lg:hover {
+  opacity: 0.5;
 }
 .jumbotron {
   background: rgb(48,43,84); /*for ie8 and bellow*/
@@ -155,7 +160,7 @@ footer h6{
 }
 .icon {
   text-align: center;
-  color: red;
+  color: #8000FF;
   margin: 0px 0px 0px 0px;
 }
 .social-circle {
@@ -287,12 +292,18 @@ footer h6{
 }
 /*-- End email icon --*/
 .skills{
+  font-style: italic;
   list-style: none;
   display: inline;
   background: center;
   text-align: center;
   font-size: 18px;
   font-weight: bold;
+}
+.skills li{
+  margin-bottom: 5px;
+  border-bottom: 2px solid #fff;
+  border-radius: 5px;
 }
 #about-wrapper {
   background-color: #E1DDDB;
@@ -319,6 +330,9 @@ footer h6{
 }
 #portfolio-wrapper p{
  text-align: justify;
+}
+#portfolio-wrapper h3{
+  font-style: italic;
 }
 .col-md-5 {
   padding-top: 20px;
@@ -358,7 +372,7 @@ footer h6{
   background-size: cover;
   -o-background-size: cover;
   background-position: center;
-  padding: 150px 100px 150px;
+  padding: 50px 100px 45px;
 }
 #contact-wrapper .form-group{
   text-align: left;
@@ -370,6 +384,10 @@ footer h6{
 }
 #contact-wrapper .btn-primary:hover { 
   opacity: 0.5;
+}
+#contact-wrapper p {
+  font-size: 18px;
+  font-style: italic;
 }
 .social-line ul{
   list-style-type:none; 
