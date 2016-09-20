@@ -423,10 +423,45 @@ footer h6{
 @media only screen and (max-width: 767px) {
 .linkedin-stack {
   position: absolute;
-  font-size: 20px;
+  font-size: 15px;
   padding: 0px 0px;
-  bottom: 50%;
+  bottom: 35%;
   left: -20%;
+}
+.instagram-stack {
+  position: absolute;
+  font-size: 15px;
+  padding: 0px 0px;
+  bottom: 20%;
+  left: -3.5%;
+}
+.youtube-stack {
+  position: absolute;
+  font-size: 15px;
+  padding: 0px 0px;
+  bottom: 12%;
+  left: 20%;
+}
+.github-stack{
+  position: absolute;
+  font-size: 15px;
+  padding: 0px 0px;
+  bottom: 12%;
+  right: 20%;
+}
+.twitter-stack{
+  position: absolute;
+  font-size: 15px;
+  padding: 0px 0px;
+  bottom: 20%;
+  right: -3.5%;
+}
+.mail-stack{
+  position: absolute;
+  font-size: 15px;
+  padding: 0px 0px;
+  bottom: 35%;
+  right: -20%;
 }
 /*--[ Mobile styles go here]-------------------------------*/
 }
