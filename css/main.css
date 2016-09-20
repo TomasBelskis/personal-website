@@ -420,7 +420,11 @@ footer h6{
   opacity: 0.5;
 }
 
-@media only screen and (max-width: 767px) {
+@media (device-height : 568px) 
+   and (device-width : 320px) 
+   and (-webkit-min-device-pixel-ratio: 2){
+                 /*IPhone 5 only CSS here*/
+
 .linkedin-stack {
   position: absolute;
   font-size: 15px;
@@ -465,3 +469,102 @@ footer h6{
 }
 /*--[ Mobile styles go here]-------------------------------*/
 }
+/*-- iPhone 6 & plus --*/
+
+@media screen and (device-width: 375px) 
+  and (device-height: 667px) 
+  and (-webkit-device-pixel-ratio: 2){
+  .linkedin-stack {
+    position: absolute;
+    font-size: 18px;
+    padding: 0px 0px;
+    bottom: 22.5%;
+    left: -13.5%;
+  }
+  .instagram-stack {
+    position: absolute;
+    font-size: 18px;
+    padding: 0px 0px;
+    bottom: 8%;
+    left: 2.5%;
+  }
+  .youtube-stack {
+    position: absolute;
+    font-size: 18px;
+    padding: 0px 0px;
+    bottom: -2%;
+    left: 25%;
+  }
+  .github-stack{
+    position: absolute;
+    font-size: 18px;
+    padding: 0px 0px;
+    bottom: -2%;
+    right: 25%;
+  }
+  .twitter-stack{
+    position: absolute;
+    font-size: 18px;
+    padding: 0px 0px;
+    bottom: 8%;
+    right: 2.5%;
+  }
+  .mail-stack{
+    position: absolute;
+    font-size: 18px;
+    padding: 0px 0px;
+    bottom: 22.5%;
+    right: -13.5%;
+  }
+  
+}
+
+@media screen and (device-width: 414px) 
+  and (device-height: 736px) 
+  and (-webkit-device-pixel-ratio: 3){
+    .linkedin-stack {
+    position: absolute;
+    font-size: 22px;
+    padding: 0px 0px;
+    bottom: 20%;
+    left: -12.5%;
+  }
+  .instagram-stack {
+    position: absolute;
+    font-size: 22px;
+    padding: 0px 0px;
+    bottom: 5%;
+    left: 2.5%;
+  }
+  .youtube-stack {
+    position: absolute;
+    font-size: 22px;
+    padding: 0px 0px;
+    bottom: -4.5%;
+    left: 25%;
+  }
+  .github-stack{
+    position: absolute;
+    font-size: 22px;
+    padding: 0px 0px;
+    bottom: -4.5%;
+    right: 25%;
+  }
+  .twitter-stack{
+    position: absolute;
+    font-size: 22px;
+    padding: 0px 0px;
+    bottom: 5%;
+    right: 2.5%;
+  }
+  .mail-stack{
+    position: absolute;
+    font-size: 22px;
+    padding: 0px 0px;
+    bottom: 20%;
+    right: -12.5%;
+  }
+  
+}
+/*-- ./iPhone 6 & plus
+
