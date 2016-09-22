@@ -72,7 +72,7 @@ footer h6{
 }
 .navbar-default {
   background: rgb(48,43,84); /*for ie8 and bellow*/
-  background: rgba(48,43,84,0.5);;
+  background: rgba(48,43,84,0.8);;
   border-style: none;
   font-style: italic;
   font-weight: bold;
@@ -420,10 +420,11 @@ footer h6{
   opacity: 0.5;
 }
 
+/*--[ Mobile styles go here]-------------------------------*/
 @media (device-height : 568px) 
    and (device-width : 320px) 
    and (-webkit-min-device-pixel-ratio: 2){
-                 /*IPhone 5 only CSS here*/
+/*IPhone 5 only CSS here*/
 #about-wrapper {
   padding: 20px 0px;
 }
@@ -472,14 +473,20 @@ footer h6{
 #portfolio-wrapper {
   padding: 20px 20px;
 }
-#contact-wrapper {
-  padding: 20px 0px;
+#portfolio-wrapper .project3 {
+  
+  clear: right;
+  display: inline-block;
 }
-
-/*--[ Mobile styles go here]-------------------------------*/
+#portfolio-wrapper .label{
+  font-size: 11px;
+  padding-bottom: 3px;
+}
+#contact-wrapper {
+  padding: 20px 5px;
+}
 }
 /*-- iPhone 6 & plus --*/
-
 @media screen and (device-width: 375px) 
   and (device-height: 667px) 
   and (-webkit-device-pixel-ratio: 2){
