@@ -424,49 +424,58 @@ footer h6{
    and (device-width : 320px) 
    and (-webkit-min-device-pixel-ratio: 2){
                  /*IPhone 5 only CSS here*/
-
+#about-wrapper {
+  padding: 20px 0px;
+}
 .linkedin-stack {
   position: absolute;
-  font-size: 15px;
+  font-size: 25px;
   padding: 0px 0px;
-  bottom: 35%;
-  left: -20%;
+  bottom: 20%;
+  left: -13.5%;
 }
 .instagram-stack {
   position: absolute;
-  font-size: 15px;
+  font-size: 25px;
   padding: 0px 0px;
-  bottom: 20%;
-  left: -3.5%;
+  bottom: 4%;
+  left: 3%;
 }
 .youtube-stack {
   position: absolute;
-  font-size: 15px;
+  font-size: 25px;
   padding: 0px 0px;
-  bottom: 12%;
-  left: 20%;
+  bottom: -5.5%;
+  left: 25.5%;
 }
-.github-stack{
+.github-stack {
   position: absolute;
-  font-size: 15px;
+  font-size: 25px;
   padding: 0px 0px;
-  bottom: 12%;
-  right: 20%;
+  bottom: -5.5%;
+  right: 25.5%;
 }
-.twitter-stack{
+.twitter-stack {
   position: absolute;
-  font-size: 15px;
+  font-size: 25px;
+  padding: 0px 0px;
+  bottom: 4%;
+  right: 3%;
+}
+.mail-stack {
+  position: absolute;
+  font-size: 25px;
   padding: 0px 0px;
   bottom: 20%;
-  right: -3.5%;
+  right: -13.5%;
 }
-.mail-stack{
-  position: absolute;
-  font-size: 15px;
-  padding: 0px 0px;
-  bottom: 35%;
-  right: -20%;
+#portfolio-wrapper {
+  padding: 20px 20px;
 }
+#contact-wrapper {
+  padding: 20px 0px;
+}
+
 /*--[ Mobile styles go here]-------------------------------*/
 }
 /*-- iPhone 6 & plus --*/
@@ -476,7 +485,7 @@ footer h6{
   and (-webkit-device-pixel-ratio: 2){
   .linkedin-stack {
     position: absolute;
-    font-size: 18px;
+    font-size: px;
     padding: 0px 0px;
     bottom: 22.5%;
     left: -13.5%;
