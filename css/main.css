@@ -425,8 +425,16 @@ footer h6{
    and (device-width : 320px) 
    and (-webkit-min-device-pixel-ratio: 2){
 /*IPhone 5 only CSS here*/
+
 #about-wrapper {
-  padding: 20px 0px;
+  padding: 20px 20px;
+  margin: 0px;
+}
+#about-wrapper p{ 
+  display: inline-block;
+  padding: 0px 0px;
+  margin: 0px 0px 0px;
+  width: 75%;
 }
 .linkedin-stack {
   position: absolute;
@@ -471,10 +479,9 @@ footer h6{
   right: -13.5%;
 }
 #portfolio-wrapper {
-  padding: 20px 20px;
+ padding: 20px 30px;
 }
 #portfolio-wrapper .project3 {
-  
   clear: right;
   display: inline-block;
 }
