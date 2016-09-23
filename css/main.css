@@ -569,49 +569,73 @@ footer h6{
 @media screen and (device-width: 414px) 
   and (device-height: 736px) 
   and (-webkit-device-pixel-ratio: 3){
-    .linkedin-stack {
+
+  #about-wrapper {
+    padding: 20px 20px;
+  }
+  #about-wrapper p{
+    width: 85%;
+  }
+  .linkedin-stack {
     position: absolute;
-    font-size: 22px;
+    font-size: 32px;
     padding: 0px 0px;
-    bottom: 20%;
-    left: -12.5%;
+    bottom: 23%;
+    left: -22%;
   }
   .instagram-stack {
     position: absolute;
-    font-size: 22px;
+    font-size: 32px;
     padding: 0px 0px;
-    bottom: 5%;
-    left: 2.5%;
+    bottom: 1%;
+    left: -5%;
   }
   .youtube-stack {
     position: absolute;
-    font-size: 22px;
+    font-size: 32px;
     padding: 0px 0px;
-    bottom: -4.5%;
-    left: 25%;
+    bottom: -11%;
+    left: 23%;
   }
   .github-stack{
     position: absolute;
-    font-size: 22px;
+    font-size: 32px;
     padding: 0px 0px;
-    bottom: -4.5%;
-    right: 25%;
+    bottom: -11%;
+    right: 23%;
   }
   .twitter-stack{
     position: absolute;
-    font-size: 22px;
+    font-size: 32px;
     padding: 0px 0px;
-    bottom: 5%;
-    right: 2.5%;
+    bottom: 1%;
+    right: -5%;
   }
   .mail-stack{
     position: absolute;
-    font-size: 22px;
+    font-size: 32px;
     padding: 0px 0px;
-    bottom: 20%;
-    right: -12.5%;
+    bottom: 23%;
+    right: -22%;
   }
-  
+  #portfolio-wrapper {
+    padding: 20px 20px;
+  }
+  #portfolio-wrapper p {
+    display: inline-block;
+    margin: 0px auto;
+    width: 85%;
+  }
+  #portfolio-wrapper .project3 {
+    clear: right;
+    display: inline-block;
+  }
+  #portfolio-wrapper .label {
+    font-size: 11px;
+  }
+  #contact-wrapper {
+    padding: 20px 10px;
+  } 
 }
 /*-- ./iPhone 6 & plus
 
