@@ -104,9 +104,10 @@
           <span class="fa-stack fa-2x twitter-stack">
             <i class="fa fa-circle fa-stack-2x icon-background"></i>
             <i class="fa fa-circle-thin fa-stack-2x circle-4"></i>
-            <i class="fa fa-twitter fa-stack-1x twitter-icon" aria-hidden="true"></i></li>
+            <i class="fa fa-twitter fa-stack-1x twitter-icon" aria-hidden="true"></i>
           </span></a>
-        <li><a class="mail" href="mailto:tomasbelskis.dev@gmail.com?subject=Hi, Tomas!">
+        </li>
+        <li><a class="mail" href="mailto:tomasbelskis.dev@gmail.com?subject=Hi,Tomas!">
           <span class="fa-stack fa-2x mail-stack">
             <i class="fa fa-circle fa-stack-2x icon-background"></i>
             <i class="fa fa-circle-thin fa-stack-2x circle-6"></i>
@@ -245,8 +246,8 @@
         <br>
         <ul>
           <li><span class="label label-danger">Java</span></li>
-          <li><span class="label label-danger">Client</span></li></li>
-          <li><span class="label label-danger">Server</span></li></li>
+          <li><span class="label label-danger">Client</span></li>
+          <li><span class="label label-danger">Server</span></li>
         </ul>
         <hr>
         <p>A simple java application that supports multiple client connections, as soon as a single client connects an auction starts, the client is able to bid for an item. There is a timer that is reset until there are bids being made, if the timer runs out that particular items is sold to the highest bidder and the auction moves on to next item in the list (also if item is not sold it moves on to next item) once all items are sold it is considered that the auctions is a success, the server shuts downs and disconnects all the clients. </p>
@@ -301,22 +302,22 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
-  </body>
-  <script>
-  $(function() {
-    $('a[href*="#"]:not([href="#"])').click(function() {
-      if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-        var target = $(this.hash);
-        target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-        if (target.length) {
-          $('html, body').animate({
-            scrollTop: target.offset().top
-          }, 1000);
-          return false;
+    <script>
+    $(function() {
+      $('a[href*="#"]:not([href="#"])').click(function() {
+        if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+          var target = $(this.hash);
+          target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+          if (target.length) {
+            $('html, body').animate({
+              scrollTop: target.offset().top
+            }, 1000);
+            return false;
+          }
         }
-      }
+      });
     });
-  });
-  </script>
+    </script>
+  </body>
 </html>
 
